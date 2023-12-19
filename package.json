@@ -9,13 +9,19 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "amqplib": "^0.8.0",
+    "winston": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-m1": "node m1-service/index.js",
+    "start-m2": "node m2-service/index.js"
   },
   "eslintConfig": {
     "extends": [
